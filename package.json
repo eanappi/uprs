@@ -1,0 +1,23 @@
+{
+  "name": "UPRS",
+  "version": "1.0.0",
+  "description": "User profile random search",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node esbuild.develop.config.js",
+    "build": "node esbuild.production.config.js"
+  },
+  "keywords": [],
+  "author": "eanappi",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.12.9"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "bulma": "^0.9.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.2"
+  }
+}
